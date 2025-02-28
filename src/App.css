@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+/* styles.css */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 7px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f0f2f9;
+  border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a0aec0;
+  border-radius: 5px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #999999;
+}
+
+input[type='time']::-webkit-inner-spin-button,
+input[type='time']::-webkit-calendar-picker-indicator {
+  @apply absolute mx-56;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  appearance: none;
+  display: none;
+}
+
+/* Quitar el color por defecto del autofill */
+input:-webkit-autofill {
+  background-color: white !important;
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  box-shadow: 0 0 0px 1000px white inset !important;
+  color: #000 !important;
+}
+
+.tiptap {
+  :first-child {
+    margin-top: 0;
+  }
+  /* Heading styles */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 1.1;
+    margin-top: 2.5rem;
+    text-wrap: pretty;
+  }
+
+  h1,
+  h2 {
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-size: 1rem;
+  }
+}
+
+.rbc-time-content .rbc-time-gutter .rbc-timeslot-group {
+  @apply border-b-0 border-t-0;
+}
+
+.rbc-allday-cell {
+  @apply hidden;
+}
+
+.rbc-time-header-content .rbc-row-bg {
+  @apply hidden;
+}
+
+.rbc-row-content {
+  @apply hidden;
+}
+
+.rbc-timeslot-group .rbc-label {
+  @apply text-xs text-tertiary-800;
+}

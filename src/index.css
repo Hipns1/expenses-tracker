@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --page-background: 150 1 95;
+    --background: 0 0 100;
+    --foreground: 0, 0%, 0%, 1;
+
+    --font-montserrat: 'Montserrat', sans-serif;
+    --card: 0, 0%, 100%, 1;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: #0d2666;
+    --primary-50: #c8d0e5;
+    --primary-100: #f0f2f9;
+    --primary-200: #0a1629;
+    --primary-300: #02174b;
+    --primary-350: #345bb0;
+    --primary-400: #3f8cff;
+
+    --secondary: #ff6d30;
+    --secondary-50: #ffe9d0;
+    --secondary-100: #ff986c;
+    --secondary-200: #ffa360;
+
+    --tertiary: #ffffff;
+    --tertiary-25: #f7f7f7;
+    --tertiary-50: #f5f5f5;
+    --tertiary-100: #f0f2f9;
+    --tertiary-150: #f9fbfb;
+    --tertiary-200: #3f3f46;
+    --tertiary-250: #dee1ed;
+    --tertiary-300: #dee5ed;
+    --tertiary-350: #adb8cc;
+    --tertiary-400: #a0aec0;
+    --tertiary-450: #9ca6b9;
+    --tertiary-500: #a1a2a1;
+    --tertiary-550: #4e4e4e;
+    --tertiary-600: #999999;
+    --tertiary-650: #7c93b5;
+    --tertiary-700: #fafbfd;
+    --tertiary-750: #f4f4f5;
+    --tertiary-800: #71717a;
+    --tertiary-900: #000000;
+    --tertiary-950: #18181b;
+
+    --active: #21a833;
+    --active-30: #23e73c;
+    --active-50: #f0f9f5;
+    --active-100: #dbf0e5;
+    --active-200: #b9e1d0;
+    --active-300: #8bcab2;
+    --active-400: #5aad91;
+    --active-500: #3a9579;
+    --active-600: #28735e;
+    --active-700: #205c4c;
+    --active-800: #1b4a3e;
+    --active-900: #173d34;
+    --active-950: #0c221e;
+
+    --inactive: #ff432c;
+    --inactive-50: #fdf3f3;
+    --inactive-100: #fce5e4;
+    --inactive-150: #ffe2df;
+    --inactive-200: #facfce;
+    --inactive-300: #f6adab;
+    --inactive-400: #ec6763;
+    --inactive-500: #e35450;
+    --inactive-550: #cf1c06;
+    --inactive-600: #d03732;
+    --inactive-700: #ae2b27;
+    --inactive-800: #902724;
+    --inactive-900: #782624;
+    --inactive-950: #410f0e;
+
+    --muted: 240 4.8% 95.9%;
+
+    --accent: 210 40% 96.1%;
+
+    --destructive: 0 84.2% 60.2%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+
+    --radius: 0.75rem;
+  }
+}
